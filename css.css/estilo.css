@@ -228,3 +228,70 @@ footer span{
     font-size: 18px;
     font-style: normal;
 }
+
+@media(max-width:420px){
+    .container{
+        width: 80vw;
+    }
+    .container_banner{
+        width: auto;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .fundo_banner{
+        width: auto;
+        height: 100%;
+    }
+    .box_conteudo_banner{
+        left: 0%;
+        align-items: center;
+        top: 120px;
+    }
+   h1{
+       width: 380px;
+        font-size: 60px;
+        width: 90%;
+        text-align: center;
+    }
+    hr{
+        width: 90%;
+        margin: 50px 0;
+    }
+    .box_conteudo_banner span{
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .box_conteudo_banner img{
+        width: 45px;
+        margin-top: 50px;
+    }
+    .container_projetos{
+        height: auto;
+    }
+    .box_projeto{
+        flex-direction: column;
+    }
+    .container_projetos h2{
+        font-size: 56px;
+        margin: 50px 0;
+    }
+    .img_box_projetos{
+        width: 80vw;
+    }
+    .box_participantes{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .box_projeto h3{
+        width: auto;
+        font-size: 37px;
+        margin: 50px 0;
+    }
+    .box_projeto p{
+        width: auto;
+        text-align: justify;
+    }
+
+ }
